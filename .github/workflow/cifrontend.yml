@@ -3,13 +3,8 @@ name: Frontend CI/CD Actions
 on:
   pull_request:
     branches: [master]
-    paths: 
-      - master/src/frontend/**
-      
   push:
     branches: [master]
-    paths: 
-      - master/src/frontend/**
 
 jobs:
   update:
